@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 UserInterfaceState.xcuserstate
 build
 *.pbxuser
@@ -8,3 +9,23 @@ build
 *~.xib 
 .DS_Store 
 xcuserdata/
+=======
+# Xcode
+.DS_Store
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+*.xcworkspace
+!default.xcworkspace
+xcuserdata
+profile
+*.moved-aside
+DerivedData
+.idea/
+>>>>>>> 5e510a2b75e1ded801551f82cc1d7fd23ad5c052
