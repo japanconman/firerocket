@@ -7,6 +7,7 @@
 //
 
 #import "DataViewController.h"
+#import "FuelBaseViewController.h"
 
 @interface DataViewController ()
 
@@ -32,4 +33,18 @@
     self.dataLabel.text = [self.dataObject description];
 }
 
+- (IBAction)showFuelBase:(UIButton *)sender {
+
+    FuelBaseViewController * vc = [[FuelBaseViewController alloc] initWithNibName:@"FuelBaseViewController" bundle:nil];
+    UINavigationController * navCon = [[UINavigationController alloc] initWithRootViewController:vc];
+    
+    [self presentViewController:navCon animated:YES completion:^{
+        
+    }];
+}
+
+//#pragma mark - Rotation Handling
+//- (NSUInteger)supportedInterfaceOrientations{
+//    return UIInterfaceOrientationMaskPortrait;
+//}
 @end

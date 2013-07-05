@@ -11,6 +11,8 @@
 #import "ModelController.h"
 
 #import "DataViewController.h"
+#import "FuelBaseViewController.h"
+
 
 @interface RootViewController ()
 @property (readonly, strong, nonatomic) ModelController *modelController;
@@ -85,4 +87,15 @@
     return UIPageViewControllerSpineLocationMin;
 }
 
+- (IBAction)showFuelBase:(UIButton *)sender {
+    FuelBaseViewController * vc = [[FuelBaseViewController alloc] initWithNibName:@"FuelBaseViewController" bundle:nil];
+    [self presentViewController:vc animated:YES completion:^{
+        
+    }];
+}
+
+#pragma mark - Rotation Handling
+- (NSUInteger)supportedInterfaceOrientations{
+    return UIInterfaceOrientationMaskPortrait;
+}
 @end

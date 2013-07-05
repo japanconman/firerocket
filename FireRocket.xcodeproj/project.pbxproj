@@ -20,6 +20,8 @@
 		D6708DC817857927006547B9 /* DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6708DC717857927006547B9 /* DataViewController.m */; };
 		D6708DCB17857927006547B9 /* ModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6708DCA17857927006547B9 /* ModelController.m */; };
 		D6708DCE17857927006547B9 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6708DCC17857927006547B9 /* MainStoryboard.storyboard */; };
+		D678AEAA1786FF2E0062D56C /* FuelBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D678AEA81786FF2E0062D56C /* FuelBaseViewController.m */; };
+		D678AEAB1786FF2E0062D56C /* FuelBaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D678AEA91786FF2E0062D56C /* FuelBaseViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +45,9 @@
 		D6708DC917857927006547B9 /* ModelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelController.h; sourceTree = "<group>"; };
 		D6708DCA17857927006547B9 /* ModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelController.m; sourceTree = "<group>"; };
 		D6708DCD17857927006547B9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		D678AEA71786FF2E0062D56C /* FuelBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FuelBaseViewController.h; sourceTree = "<group>"; };
+		D678AEA81786FF2E0062D56C /* FuelBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FuelBaseViewController.m; sourceTree = "<group>"; };
+		D678AEA91786FF2E0062D56C /* FuelBaseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FuelBaseViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +104,9 @@
 				D6708DCA17857927006547B9 /* ModelController.m */,
 				D6708DCC17857927006547B9 /* MainStoryboard.storyboard */,
 				D6708DB217857927006547B9 /* Supporting Files */,
+				D678AEA71786FF2E0062D56C /* FuelBaseViewController.h */,
+				D678AEA81786FF2E0062D56C /* FuelBaseViewController.m */,
+				D678AEA91786FF2E0062D56C /* FuelBaseViewController.xib */,
 			);
 			path = FireRocket;
 			sourceTree = "<group>";
@@ -173,6 +181,7 @@
 				D6708DC017857927006547B9 /* Default@2x.png in Resources */,
 				D6708DC217857927006547B9 /* Default-568h@2x.png in Resources */,
 				D6708DCE17857927006547B9 /* MainStoryboard.storyboard in Resources */,
+				D678AEAB1786FF2E0062D56C /* FuelBaseViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,6 +197,7 @@
 				D6708DC517857927006547B9 /* RootViewController.m in Sources */,
 				D6708DC817857927006547B9 /* DataViewController.m in Sources */,
 				D6708DCB17857927006547B9 /* ModelController.m in Sources */,
+				D678AEAA1786FF2E0062D56C /* FuelBaseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +320,7 @@
 				D6708DD317857927006547B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

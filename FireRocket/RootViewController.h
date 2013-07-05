@@ -11,5 +11,6 @@
 @interface RootViewController : UIViewController <UIPageViewControllerDelegate>
 
 @property (strong, nonatomic) UIPageViewController *pageViewController;
+- (IBAction)showFuelBase:(UIButton *)sender;
 
 @end
